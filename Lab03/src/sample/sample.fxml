@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <left>
+        <ListView fx:id="todoListView" onMouseClicked="#handleClickListView" prefHeight="400.0" prefWidth="375.0">
+
+        </ListView>
+    </left>
+    <center>
+        <TextArea fx:id="itemDetailsTextArea" prefHeight="406.0" prefWidth="340.0" />
+    </center>
+   <top>
+      <Button fx:id="initializeListButton" mnemonicParsing="false" onAction="#initialize" text="Load file path " BorderPane.alignment="TOP_LEFT">
+         <graphic>
+            <TextField fx:id="catalougeFieldTextArea" prefHeight="25.0" prefWidth="423.0" text="Testowy\" />
+         </graphic>
+      </Button>
+   </top>
+   <bottom>
+      <Label fx:id="loadLabel" BorderPane.alignment="CENTER" />
+   </bottom>
+   <right>
+      <ImageView fx:id="imageView" fitHeight="400.0" fitWidth="400.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER" />
+   </right>
+</BorderPane>
