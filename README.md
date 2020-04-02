@@ -6,4 +6,4 @@ Program umożliwiający listowanie plików z katalogu(z podkatalogami), obsług�
 
 Aplikacja została użyta z wykorzystaniem słabych referencji, pliki są ładowane do klasy FileItem, następnie tworzona jest struktura WeakHashMap(), gdzie jako klucz podaje się ścieżkę do pliku w formacie String.
 
-W folderze releases znajdują się paczki uruchomieniowe
+W folderze release znajdują się paczki uruchomieniowe
